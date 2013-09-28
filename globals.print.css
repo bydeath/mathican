@@ -1,0 +1,207 @@
+/*
+	- Stylesheet for Math Pass Software
+	-	Writen by Chris Green (cgreen9@kent.edu)
+
+	- Copyright Protected 2007 - Christopher B. Green
+	-	Anyone may use or modify this program as they desire so long as they
+	-	don't remove this comment block.
+
+	- This style sheet is organized by where each element appears
+	-	on the page, from top to bottom. All content related
+	-	classes, such as reusable fonts and such are located at 
+	-	the very bottom. There are comments throughout pointing
+	-	out easily identifiable objects on the page.
+*/
+
+/*
+	- Document Top
+*/
+BODY
+{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	text-align:center;
+}
+#tbl_body
+{
+}
+#td_left_2
+{
+	display:none;
+}
+#td_left_1
+{
+	display:none;
+}
+#td_head
+{
+	display:none;
+}
+#td_right_1
+{
+	display:none;
+}
+#td_right_2
+{
+	display:none;
+}
+#td_body
+{
+}
+table.tbl_content
+{
+	width:550px;
+}
+#td_breadCrumbs
+{
+	display:none;
+}
+
+#td_left
+{
+	display:none;
+}
+
+
+#td_contentTop
+{
+}
+#td_pageTitle
+{
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:16;
+	font-weight:bold;
+	color:white;
+	background-color:#F5F8F9;
+	padding:15px 20px 10px 20px;
+}
+#td_contentArea
+{
+}
+#td_contentTop
+{
+	display:none;
+}
+#td_contentBottom
+{
+	display:none;
+}
+
+#td_copyright
+{
+	display:none;
+}
+
+/*
+	- Main Menu
+*/
+#tbl_mainMenu
+{
+	display:none;
+}
+
+/*
+	- Sub Menu
+*/
+TD.subMenuOn
+{
+	display:none;
+}
+TD.subMenuOff
+{
+	display:none;
+}
+
+/*
+	- Page Options
+*/
+.pageOptionsOff
+{
+	cursor:pointer;
+}
+.pageOptionsOn
+{
+	cursor:pointer;
+}
+.pageOption
+{
+	font-family:Helvetica,Arial,Verdana;
+	font-size:12px;
+	color:Black;
+}
+
+/*
+	- Fonts and Styles
+*/
+A:link
+{
+	color:#3399cc;
+}
+A:hover
+{
+	color:#3399cc;
+}
+A:active
+{
+	color:#3399cc;
+}
+A:visited
+{
+	color:#3399cc;
+}
+A.black:link
+{
+	color:Black;
+}
+A.black:hover
+{
+	color:Black;
+}
+A.black:active
+{
+	color:Black;
+}
+A.black:visited
+{
+	color:Black;
+}
+LI
+{
+	color:White;
+}
+.black
+{
+	color:black;
+}
+.white
+{
+	color:black;
+}
+
+/*
+	- Fonts
+*/
+H1
+{
+	color:black;
+}
+H2
+{
+	color:black;
+}
+H3
+{
+	color:black;
+}
+P
+{
+	color:black;
+}
+
+/*
+	- Temp
+*/
+#td_subMenu
+{
+	display:none;
+}

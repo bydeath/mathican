@@ -1,0 +1,633 @@
+/*
+	- Stylesheet for Math Pass Software
+	-	Writen by Chris Green (cgreen9@kent.edu)
+
+	- Copyright Protected 2007 - Christopher B. Green
+	-	Anyone may use or modify this program as they desire so long as they
+	-	don't remove this comment block.
+
+	- This style sheet is organized by where each element appears
+	-	on the page, from top to bottom. All content related
+	-	classes, such as reusable fonts and such are located at 
+	-	the very bottom. There are comments throughout pointing
+	-	out easily identifiable objects on the page.
+*/
+
+/*
+	- Document Top
+*/
+BODY
+{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 10px;
+	text-align:center;
+}
+table.tbl_content
+{
+	width:890px;
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#td_breadCrumbs
+{
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:11px;
+	color:#000000;
+	font-weight:normal;
+	text-align:right;
+	padding:10px 0px 4px 0px;
+}
+#td_breadCrumbs1
+{
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:11px;
+	color:#000000;
+	font-weight:normal;
+	text-align:right;
+	padding:10px 0px 4px 0px;
+}
+#td_left
+{
+	width:140px;
+	vertical-align:top;
+}
+
+td.td_right
+{
+	width:750px;
+	vertical-align:top;
+	border: 1px solid #b0b0b0;
+}
+table.tbl_right
+{
+	width:750px;
+	background-color:#F5F8F9;
+}
+
+#td_pageTitle
+{
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:16;
+	font-weight:bold;
+	color:#000000;
+	background-color:#F5F8F9;
+	padding:15px 20px 10px 20px;
+}
+#td_contentArea
+{
+	padding:0px 20px 10px 20px;
+	height:300px;
+	vertical-align:top;
+}
+#td_contentTop
+{
+	height:20px;
+	background-image:url(pics/bodygradient.gif);
+	font-size:1px;
+}
+#td_contentBottom
+{
+	height:20px;
+}
+
+#td_copyright
+{
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:10;
+	color:#000000;
+	font-weight:normal;
+	text-align:center;
+	padding:30px 0px 0px 0px;
+}
+
+/*
+	- Main Menu
+*/
+#tbl_mainMenu
+{
+	width:140px;
+	border:none;
+}
+TD.menuItemOff
+{
+	padding:4px 4px 4px 10px;
+	background-color:#e5e8e9;
+	color:#3399cc;
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:11px;
+	font-weight:bold;
+	border-right-style:solid;
+	border-right-width:2px;
+	border-right-color:White;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:White;
+	text-align:right;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+TD.menuItemOver
+{
+	padding:4px 4px 4px 10px;
+	background-color:#ffcc33;
+	color:#3399cc;
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:11px;
+	font-weight:bold;
+	border-right-style:solid;
+	border-right-width:2px;
+	border-right-color:White;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:White;
+	text-align:right;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+TD.menuItemOn
+{
+	padding:4px 4px 4px 10px;
+	background-color:#e5e8e9;
+	background-image:url(pics/navgradient.gif);
+	background-repeat:repeat-y;
+	color:#3399cc;
+	font-family:Helvetica,Sans-Serif,Arial;
+	font-size:11px;
+	font-weight:bold;
+	text-align:right;
+	text-transform:uppercase;
+	cursor:pointer;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #b0b0b0;
+	border-right-color: #F5f8f9;
+	border-bottom-color: #B0B0B0;
+	border-left-color: #B0B0B0;
+	z-index: 2;
+	right:2px;
+}
+
+/*
+	- Sub Menu
+*/
+#td_subMenu
+{
+	padding:0px 0px 0px 0px;
+	background-color:#F5F8F9;
+	text-align:left;
+}
+TD.subMenuOn
+{
+	font-family:Helvetica,Arial,Verdana;
+	font-size:10;
+	background-color:#F5F8F9;
+	padding:2px 10px 2px 10px;
+	color:#000000;
+	font-weight:500;
+	text-transform:uppercase;
+}
+TD.subMenuOff
+{
+	font-family:Helvetica,Arial,Verdana;
+	font-size:10;
+	background-color:#ffcc33;
+	color:#F5F8F9;
+	padding:2px 10px 2px 5px;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+/*
+	- Page Options
+*/
+.pageOptionsOff
+{
+	cursor:pointer;
+}
+.pageOptionsOn
+{
+	cursor:pointer;
+}
+.pageOption
+{
+	font-family:Helvetica,Arial,Verdana;
+	font-size:12px;
+	color:Black;
+}
+
+/*
+	- Fonts and Styles
+*/
+A:link
+{
+	color:#5599cc;
+	text-decoration:none;
+}
+
+A:active
+{
+	color:#ff9900;
+	text-decoration:none;
+}
+A:visited
+{
+	color:#3399cc;
+	text-decoration:none;
+}
+A:hover
+{
+	color:#ff9900;
+	text-decoration:none;
+}
+A.black:link
+{
+	color:Black;
+}
+A.black:hover
+{
+	color:Black;
+}
+A.black:active
+{
+	color:Black;
+}
+A.black:visited
+{
+	color:Black;
+}
+A.prob:link
+{
+  font-weight:bold;
+	color:#ffcc33;
+}
+
+A.prob:active
+{
+	color:#ffccff;
+}
+A.prob:visited
+{
+  font-weight:bold;
+	color:#ffcc33;
+}
+A.prob:hover
+{
+	color:#ffccff;
+}
+LI
+{
+	color:#3399cc;
+}
+.black
+{
+	color:black;
+}
+.button1
+{
+ BORDER-RIGHT: #7b9ebd 1px solid; 
+ PADDING-RIGHT: 2px; 
+ BORDER-TOP: #7b9ebd 1px solid; 
+ PADDING-LEFT: 2px; 
+ FONT-SIZE: 14px; 
+ background:url("./Images/tabheader01.gif");
+ BORDER-LEFT: #7b9ebd 1px solid; 
+ CURSOR: hand; COLOR: black; PADDING-TOP: 2px; 
+ BORDER-BOTTOM: #7b9ebd 1px solid
+}
+.white
+{
+	color:#000000;
+}
+
+/*
+	- Print Preview
+*/
+#div_printPreview
+{
+	background-color:#F5F8F9;
+	height:50px;
+	width:50px;
+	overflow:hidden;
+	color:#3399cc;
+}
+
+/*
+	- Take Assignment Page
+*/
+#td_assignmentNavigation
+{
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	border-color:#aaaaaa;
+	background-color:#ffffff;
+	padding:8px 8px 8px 8px;
+}
+a.questionLink 
+{
+  font-family:Arial;
+	font-size:14px;
+}
+a.questionLinkOn
+{
+  font-family:Arial;
+	font-size:16px;
+	background-color:#e5e8e9;
+	font-weight:bold;
+}
+SPAN.questionLink0 /*default */
+{
+	border-style:none;
+	padding:3px 3px 3px 3px;
+	color:#3399cc;
+	background-color:#f5f8f9;
+	cursor:default;
+	font-size:14px;
+}
+SPAN.questionLink1 /*ritght */
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #00FF00;
+	padding:3px 3px 3px 3px;
+	color:#3399cc;
+	background-color:#f5f8f9;
+	cursor:default;
+	font-size:14px;
+}
+SPAN.questionLink4 /*wrong */
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FF0000;
+	padding:3px 3px 3px 3px;
+	background-color:#f5f8f9;
+	cursor:default;
+	color:#FF00FF;
+	font-size:14px;
+}
+DIV.answer
+{
+	border-style:solid;
+	border-color:#aaaaaa;
+	border-width:1px;
+	background-color:#dddddd;
+	padding:3px 3px 3px 3px;
+}
+DIV.answerFlash
+{
+	border-style:solid;
+	border-color:blue;
+	border-width:1px;
+	background-color:#bbbbff;
+	padding:3px 3px 3px 3px;
+}
+DIV.answerRight
+{
+	border-style:solid;
+	border-color:green;
+	border-width:1px;
+	background-color:#ddffdd;
+	padding:3px 3px 3px 3px;
+}
+DIV.answerWrong
+{
+	border-style:solid;
+	border-color:red;
+	border-width:1px;
+	background-color:#ffdddd;
+	padding:3px 3px 3px 3px;
+}
+div.questionViewOff
+{
+	width:185px;
+	cursor:pointer;
+	border-style:none;
+	padding:3px 3px 3px 3px;
+	font-family:Arial;
+	font-size:13;
+	color:#999999;
+	background-color:#f5f8f9;
+	text-align:center;
+}
+div.questionViewOn
+{
+	width:185px;
+	cursor:default;
+	border-style:none;
+	padding:3px 3px 3px 3px;
+	font-family:Arial;
+	font-size:13;
+	color:Black;
+	background-color:#e5e8e9;
+	text-align:center;
+}
+td.ws{
+border-style:none;
+background-color:#F5F8F9;
+padding:5px 5px 5px 5px;
+font-family:Arial; 
+font-size:14px;
+}
+td.ws2{
+border-style:solid;
+border-color:#aaaaaa;
+border-width:1px;
+background-color:#ffffff;
+padding:5px 5px 5px 5px;
+font-family:Arial; 
+font-size:14px;
+}
+td.ws1{
+border-style:none;
+background-color:#F5F8F9;
+padding:5px 5px 5px 5px;
+font-family:Arial; 
+font-size:14px;
+text-align:center;
+}
+
+/*
+	- Fonts
+*/
+H1
+{
+	color:#000000;
+}
+H2
+{
+	color:#000000;
+}
+H3
+{
+	color:#000000;
+	
+}
+.h3
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#333333;
+}
+P
+{
+	color:#000000;
+}
+table.t1 {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+.question{
+
+color:#0033FF;
+}
+.matheditI{
+width:350;
+height:56;
+}
+.dis {
+	background-color: #f4f4f4;
+	font-size: 24px;
+	padding-top:2px;
+	padding-bottom:2px;
+	vertical-align: middle;
+}
+.in {
+	font-size: 20px;
+	color: #FF0000;
+	background-color: #eeefff;
+	width: 350px;
+	height: 30px;
+	margin-bottom: 4px;
+}
+.matheditI1{
+width:60px;
+height:54px;
+}
+.matheditI3{
+width:380px;
+height:54px;
+}
+.matheditI2{
+width:108px;
+height:54px;
+}
+MathEditI4{
+width:88px;
+height:54px;
+}
+.matheditI5{
+width:400px;
+height:54px;
+}
+.dis1 {
+	background-color: #f4f4f4;
+	margin-top: 2px;
+	font-size: 24px;
+	padding-top:6px;
+	padding-bottom:2px;
+	vertical-align: middle;
+}
+.in1 {
+	font-size: 20px;
+	color: #FF0000;
+	background-color: #eeefff;
+	width: 60px;
+	height: 30px;
+	margin-bottom: 2px;
+}
+.in2 {
+	font-size: 20px;
+	color: #FF0000;
+	background-color: #eeefff;
+	width: 108px;
+	height: 30px;
+	margin-bottom: 2px;
+}
+.in3 {
+	font-size: 20px;
+	color: #FF0000;
+	background-color: #eeefff;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 2px;
+}
+.addAs{
+/*	background-color: #5399cc;*/
+    background-color:#3434cc;
+}
+.sort{
+	background-color: #5399cc;
+	padding: 2px;
+}
+.addAs1{
+	border: 1px solid #b0b0b0;
+	height:380px;
+	overflow:auto; 
+}
+.addAs2{
+	border: 1px solid #0f00b0;
+	height:361px;
+	overflow:auto; 
+}
+.yourstu{
+	height:300px;
+	width:300px;
+	overflow:auto; 
+}
+.input1 {
+	font-size: 10px;
+	color:#FF0000;
+}
+.td_pro{
+background-color:#e5e8e9;
+}
+.phand{
+cursor:pointer;
+}
+.tablehead
+{
+background-color:#cccccc;
+border-top-style:solid;
+border-top-width:1px;
+border-top-color:black;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-bottom-color:black;
+border-left-style:solid;
+border-left-width:1px;
+border-left-color:black;
+font-weight:bold;
+text-align:center;
+height:30px;
+}
+.tablecontent
+{
+background-color:#ffffff;
+border-bottom-style:dashed;
+border-bottom-width:1px;
+border-bottom-color:black;
+cursor:default;
+height:30px;
+}
+.parenthese{font-size:20px;background-color:#f4f4f4; width:16px; height:24px;valign:center}   
+.parenthese1{font-size:20px;display:none; width:16px; height:24px; background-color:#eeefff; cursor: pointer; height:20px;valign:center; cursor: hand;}
+.orient{font-size:20px;background-color:#f4f4f4; width:66px; height:24px;valign:center}   
+.orient1{font-size:20px;display:none; width:66px; height:24px; background-color:#eeefff; cursor: pointer; height:20px;valign:center; cursor: hand;}    
+.focusinput{background-color:#ffffff;}
+.nofocusinput{background-color:#e5e6e7;}

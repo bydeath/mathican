@@ -1,0 +1,100 @@
+<?xml version='1.0' standalone='no'?>
+<tools>
+   <t id="tnew">
+     <imgurl>../mathedit/image/tnew.gif</imgurl>
+     <action>doNew()</action>
+   </t>
+   <t id="topen">
+     <imgurl>../mathedit/image/topen.gif</imgurl>
+     <action>doOpen()</action>
+   </t>
+   <t id="tsave">
+     <imgurl>../mathedit/image/tsave.gif</imgurl>
+     <action>doSave()</action>
+   </t>
+   <t id="treturnmainwindow">
+     <imgurl>../mathedit/image/treturnmainwindow.gif</imgurl>
+     <action>doReturn()</action>
+   </t>
+   <t id="tcut">
+     <imgurl>../mathedit/image/tcut.gif</imgurl>
+     <action>doCut()</action>
+   </t>
+   <t id="tcopy">
+     <imgurl>../mathedit/image/tcopy.gif</imgurl>
+     <action>doCopy()</action>
+   </t>
+   <t id="tpaste">
+     <imgurl>../mathedit/image/tpaste.gif</imgurl>
+     <action>doPaste()</action>
+   </t>
+   <t id="tundo">
+     <imgurl>../mathedit/image/tundo.gif</imgurl>
+     <action>undo()</action>
+   </t>
+   <t id="tredo">
+     <imgurl>../mathedit/image/tredo.gif</imgurl>
+     <action>redo()</action>
+   </t>
+   <t id="tfont">
+     <f>Font</f>
+     <f>Times New Roman</f>
+     <f>Courier</f>
+     <f>Garamond</f>
+     <f>serif</f>
+     <action>doStyle('fa',this.value)</action>
+   </t>
+   <t id="tfontsize">
+     <f>Size</f>
+     <f>Small</f>
+     <f>Normal</f>
+     <f>Big</f>
+     <action>doStyle('si',this.value)</action>
+   </t>
+   <t id="tbold">
+     <imgurl>../mathedit/image/tbold.gif</imgurl>
+     <action>doStyle('va','bold')</action>
+   </t>
+   <t id="titalic">
+     <imgurl>../mathedit/image/titalic.gif</imgurl>
+     <action>doStyle('va','italic')</action>
+   </t>
+   <t id="tforecolor">
+     <imgurl>../mathedit/image/tforecolor.gif</imgurl>
+     <action>doStyle('co','f')</action>
+   </t>
+   <t id="tbackcolor">
+     <imgurl>../mathedit/image/tbackcolor.gif</imgurl>
+     <action>doStyle('co','b')</action>
+   </t>
+   <t id="selectedmathml">
+     <imgurl>../mathedit/image/tc.gif</imgurl>
+     <action>selectedMathml()</action>
+   </t>
+   <si id="selectedinfix">
+     <imgurl>../mathedit/image/ti.gif</imgurl>
+     <action evt="onfocus">infixfocus()</action>
+     <action evt="onblur">infixblur()</action>
+     <action evt="onclick">selectedInfixChange()</action>
+   </si>
+   <m id="design">
+     <text>Design</text>
+     <action>doDesign()</action>
+   </m>
+   <m id="mml-Content">
+     <text>MML-Content</text>
+     <action>doContent()</action>
+   </m>
+    <m id="mml-Presentation">
+     <text>MML-Presentation</text>
+     <action>doPresentation()</action>
+   </m>
+    <m id="infix">
+     <text>Infix</text>
+     <action>doInfix()</action>
+   </m>
+    <m id="preview">
+     <text>Preview</text>
+     <action>doPreview()</action>
+   </m>
+</tools>
